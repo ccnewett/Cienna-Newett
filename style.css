@@ -1,7 +1,166 @@
-p {
-    font-family: "futura", sans-serif;
+body {
+    font-family: "sofia-pro", "futura", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  p {
+    font-family: "sofia-pro", "futura", sans-serif;
     font-weight: 200;
     font-style: normal;;
     line-height: 1.8;
     text-align: center;
   }
+  
+  .second-line {
+    font-family: "sofia-pro", "futura", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: "sofia-pro", "futura", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.8;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: "sofia-pro", "futura", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.8;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: "sofia-pro", "futura", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.8;
+    text-align: center;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project {
+    width: 400px;
+    height: 400px;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .overlay-pink {
+    background-color: #FE506D;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: "Futura", "Sans Serif";
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+  }
+  
+  .overlay-black {
+    background-color: black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'Futura', sans-serif;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+  }
+  
+  .overlay-cream {
+    background-color: #E9E2D0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'Futura', sans-serif;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+  }
+  
+  .overlay-white {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    font-family: 'Futura', sans-serif;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+  }
+  
+  .overlay:hover {
+    opacity: 1;
+  }
+  
+  .project h3 {
+    margin: 0;
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .overlay:hover h3 {
+    transform: translateY(0);
+  }
+  
+  .project p {
+    margin: 0;
+  }
+  
+  .project-1 {
+    background-image: url("assets/design\ index.png");
+  }
+  .project-2 {
+    background-image: url("assets/Tess.gif");
+  }
+  .project-3 {
+    background-image: url("assets/madi.png");
+  }
+  .project-4 {
+    background-image: url("assets/crushing\ the\ odds.png");
+  }
+  .project-5 {
+    background-image: url("assets/nike\ shoe.png");
+  }
+  .project-6 {
+    background-image: url("assets/dance\ photos.png");
+  }
+  .project-7 {
+    background-image: url("assets/viscon.png");
+  }
+  .project-8 {
+    background-image: url("assets/hammer.png");
+  }
+  .project-9 {
+    background-image: url("assets/postccard.png");
+  }
+  .project-10 {
+    background-image: url("assets/plant.png");
+  }
+  .project-11 {
+    background-image: url("assets/chance.png");
+  }
+  .project-12 {
+    background-image: url("assets/carli.png");
+  }
+  
+  
